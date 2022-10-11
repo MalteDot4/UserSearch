@@ -10,7 +10,7 @@ function useFetchUser(gitUser) {
       fetch(`${apiConfig["url"]}${gitUser}`)
         .then((res) => {
           if (!res.ok) {
-            throw Error("couldn´t fetch user");
+            throw Error("couldn´t fetch data");
           }
           setError(null);
           return res.json();
