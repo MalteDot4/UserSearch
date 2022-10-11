@@ -6,7 +6,6 @@ import { ReactComponent as CompanyIcon } from "../assets/icon-company.svg";
 import { ReactComponent as LocationIcon } from "../assets/icon-location.svg";
 
 function UserLinks(props) {
-  console.log(props.theme);
   return (
     <>
       <ul className="user-links">

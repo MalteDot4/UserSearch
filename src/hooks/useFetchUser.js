@@ -7,7 +7,7 @@ function useFetchUser(gitUser) {
 
   useEffect(() => {
     if (gitUser)
-      fetch(`${apiConfig["url"]}${gitUser}`)
+      fetch(`${apiConfig.url}${gitUser}`)
         .then((res) => {
           if (!res.ok) {
             throw Error("couldn´t fetch data");
